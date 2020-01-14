@@ -31,17 +31,20 @@ width: 20%;
 } 
 
 .logotopo {
-    animation-name: animacaoBolada;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-play-state: running;
+animation-name: animacaoBolada;
+animation-duration: 5s;
+animation-timing-function: ease;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-play-state: running;
 }
 
 
 */
+
+
+/*Banner e parte de cima*/
 
 .banner {
 position: static;
@@ -86,26 +89,8 @@ color: none;
 }
 
 
-.totArticle {
-margin: 20px;
-text-align:inherit;
-}
 
-.totArticle h2 {
-font-size: 50px;
-color: blue;
-}
-
-.totArticle h3 {
-font-size: 30px;
-color: #7097a8;
-}
-
-.totArticle p {
-margin: 10px;
-padding: 2px;
-}
-
+/*dicas do site*/
 
 .dicatotal {
 height: 100%;
@@ -123,13 +108,15 @@ text-align: center;
 margin-top: 10px;
 margin-bottom: 10px;
 font-family: 'Arvo', serif;
-background-color: rgb(196, 196, 152);
+background: rgb(233,233,194);
+box-shadow: 1px 2px 6px rgba(0, 0, 0, .5);
 }
 
+
 .topodica {
-    margin-bottom: 5px;
-    text-align: center;
-    padding: 1px;
+margin-bottom: 5px;
+text-align: center;
+padding: 1px;
 }
 
 
@@ -172,6 +159,53 @@ color:none;
 }
 
 
+/*corpo do site*/
+
+.totArticle {
+margin: 10px;
+border: none;
+padding: 10px;
+}
+
+.totArticle h2 {
+margin: 15px 0px;
+font-size: 50px;
+color: chocolate;
+}
+
+.totArticle p {
+margin: 15px;
+padding: 10px;
+text-align: justify;
+}
+
+.totArticle h3 {
+font-size: 30px;
+color: #7097a8;
+}
+
+
+/*corpo do site/index*/
+
+
+/*corpo do site/história*/
+
+
+/*corpo do site/caracteristicas*/
+
+
+/*corpo do site/saúde*/
+
+
+/*corpo do site/comportamento*/
+
+
+
+
+
+
+/*rodapé do site*/
+
 .botFooter {
 background: #7097a8;
 margin: 0;
@@ -189,17 +223,17 @@ float: left;
 }
 
 .text_footer h3{
-    text-transform: uppercase;
-    padding: 30px;
-    
+text-transform: uppercase;
+padding: 30px;
+
 }
 
 .text_footer p{
-    line-height: 35px;
+line-height: 35px;
 }
 
 .formulario_total {
-   margin-top: 50px;
+margin-top: 50px;
 }
 
 
@@ -238,10 +272,10 @@ width: 100%;
 }
 
 .address {
-    padding:10px;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 40px;
-    background: teal;
-    position: static;
-    }
+padding:10px;
+margin-bottom: 20px;
+width: 100%;
+height: 40px;
+background: teal;
+position: static;
+}
