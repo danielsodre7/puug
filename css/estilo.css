@@ -128,6 +128,9 @@ position: absolute;
 top: 10vh;
 left: -1vh;
 
+svg text { 
+    font-size: 18px; 
+}
 
 
 } 

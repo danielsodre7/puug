@@ -188,6 +188,111 @@ color: #7097a8;
 /*corpo do site/index*/
 
 
+.totArticle
+
+
+.eu_pug {
+    background-color: burlywood;
+    max-width: 100%;
+    width: 800px;
+    height: 800px;
+    top: 10px;
+    padding: 30px;
+    content: auto;
+    margin-top: 30px;
+}
+
+
+.eu_pug p {
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 10px;
+    color: brown;
+}
+
+.imagem1 {
+    z-index: 30;
+    height: 100px;
+    top: 10px;
+    max-width: 100%;
+    width: auto;
+}
+
+.imagem2 {
+    z-index: auto;
+    height: 100px;
+    top: 10px;
+    max-width: 100%;
+    width: auto;
+    position: relative;
+    
+}
+
+path { 
+    transition: .6s fill;
+    fill: rgb(255, 255, 255);
+    
+}
+
+text { 
+    opacity: 0;
+    font-size: 28px; 
+    background: bisque;
+}
+
+path:hover {
+    fill: #CB8A5F;
+    cursor: pointer;
+}
+
+path:hover + text { opacity: 1; }
+
+svg text { 
+    transition: .3s; 
+    font: 30px arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 4px 3px rgb(226, 184, 128);
+
+}
+
+
+/*teste
+
+.eu_pug {
+    background-color: burlywood;
+    width: auto;
+    max-width: 100%;
+    content: 100%;
+    background-image: unset;
+}
+
+.eu_pug map {
+        width: 800px;
+        height: 800px;
+        max-width: 800px;
+        max-height: 800px;
+        justify-items: auto;
+    
+}
+
+.eu_pug img {
+    max-width: 100%;
+
+}
+.eu_pug svg {
+    z-index: 3;
+    position: absolute;
+    max-width: 100%;
+    top:auto; left:0px;
+    float: right;
+
+}
+ */
+
+
 /*corpo do site/história*/
 
 
@@ -271,7 +376,7 @@ height: 25px;
 width: 100%;
 }
 
-.address {
+.address {   
 padding:10px;
 margin-bottom: 20px;
 width: 100%;
@@ -279,3 +384,11 @@ height: 40px;
 background: teal;
 position: static;
 }
+
+.address {
+    text-size-adjust: auto;
+    text-align: justify;
+    color: beige;
+    
+}
+
