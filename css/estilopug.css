@@ -190,16 +190,15 @@ color: #7097a8;
 
 .totArticle
 
-
 .eu_pug {
-    background-color: burlywood;
     max-width: 100%;
+    margin-top: 1px;
     width: 800px;
     height: 800px;
     top: 10px;
     padding: 30px;
     content: auto;
-    margin-top: 30px;
+    
 }
 
 
@@ -209,29 +208,24 @@ color: #7097a8;
     top: 10px;
     left: 10px;
     color: brown;
+    text-transform: uppercase;
 }
+
 
 .imagem1 {
-    z-index: 30;
+    z-index: -1;
     height: 100px;
     top: 10px;
     max-width: 100%;
     width: auto;
+    margin-left: 30px;
 }
 
-.imagem2 {
-    z-index: auto;
-    height: 100px;
-    top: 10px;
-    max-width: 100%;
-    width: auto;
-    position: relative;
-    
-}
 
 path { 
     transition: .6s fill;
     fill: rgb(255, 255, 255);
+    
     
 }
 
@@ -244,19 +238,24 @@ text {
 path:hover {
     fill: #CB8A5F;
     cursor: pointer;
+    stroke:  rgb(66, 48, 35);
+    
 }
 
 path:hover + text { opacity: 1; }
 
 svg text { 
     transition: .3s; 
-    font: 30px arial, sans-serif;
+    font: 20px arial, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-shadow: 4px 3px rgb(226, 184, 128);
-
+    padding: 60px;
+    color: blueviolet;
+   
 }
+
 
 
 /*teste
