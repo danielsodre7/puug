@@ -171,6 +171,7 @@ padding: 10px;
 margin: 15px 0px;
 font-size: 50px;
 color: chocolate;
+text-shadow: 3px 2px rgba(255, 145, 0, 0.411);
 }
 
 .totArticle p {
@@ -293,6 +294,38 @@ svg text {
 
 
 /*corpo do site/história*/
+
+.pugdir img{
+    width: 180px;
+    height:180px;
+    float: left;
+
+}
+
+.pugesq img{
+    width: 180px;
+    height:180px;
+    float: right;
+ 
+}
+
+.pugesq p{
+  text-align: justify;
+  border: 2px solid none;
+  padding: auto;
+  text-indent: 50px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+} 
+
+.pugdir p{
+    text-align: justify;
+    border: 2px solid none;
+    padding: auto;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+} 
 
 
 /*corpo do site/caracteristicas*/
