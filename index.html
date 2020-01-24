@@ -457,10 +457,17 @@
                 <form id="formulario" autocomplete="off" name="contato" method="post" data-netlify="true">
                     <fieldset id="area">
                     <legend>Me conte algo:</legend>
-                    <label>Qual seu nome:</label><input class="campo_nome" type="text"><br>
-                    <label>Email:</label><input class="campo_email" type="email"><br>
-                    <label>Abra o coração:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
-                    <input class="btn_submit" type="submit" value="Enviar">
+
+                    <label >Qual seu nome: <input class="campo_nome" type="text" name="name" /></label> <br>
+                    
+                    <label>Email:</label> <input class="campo_email" type="email"><br>
+
+                    <label>Message: <textarea name="message" class="msg" cols="35" rows="8"></textarea></label>
+
+
+
+
+                    <button type="submit">Vai lá</button>
                     </fieldset>
                 </form>
             </Div>
