@@ -454,20 +454,30 @@
             </Div>
         
             <Div class="formulario_total">
-                <form id="formulario" autocomplete="off" name="contato" method="post" data-netlify="true">
-                    <fieldset id="area">
+
+                <form name="contact" method="POST" data-netlify="true">
+                        
                     <legend>Me conte algo:</legend>
 
-                    <label >Qual seu nome: <input class="campo_nome" type="text" name="name" /></label> <br>
+                    <p class="campo_nome"> 
+                    <label>Qual seu nome:  <select name="role[]" multiple>
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                    </select></label>
+                    </p>
+
+
+                    <p class="campo_email"> 
+                    <label>Email: <input type="email" name="email" /></label>
+                    </p> 
                     
-                    <label>Email:</label> <input class="campo_email" type="email"><br>
 
-                    <label>Message: <textarea name="message" class="msg" cols="35" rows="8"></textarea></label>
-
-
-
+                    <p class="msg"> 
+                   <label>Message: <textarea name="message" cols="35" rows="8"></textarea></label>
+                    </p>
 
                     <button type="submit">Vai lá</button>
+
                     </fieldset>
                 </form>
             </Div>
