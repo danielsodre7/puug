@@ -127,15 +127,15 @@ width: 20%;
 position: absolute;
 top: 10vh;
 left: -1vh;
+} 
 
 svg text { 
-    font-size: 18px; 
+    font-size: 30px; 
 }
 
 
-} 
-    
-    /*
+
+/*
     
     
     .headerNav {

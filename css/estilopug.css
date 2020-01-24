@@ -194,11 +194,13 @@ color: #7097a8;
 .eu_pug {
     max-width: 100%;
     margin-top: 1px;
+    margin-left: 100px;
     width: 800px;
     height: 800px;
     top: 10px;
     padding: 30px;
     content: auto;
+    align-items: center;
     
 }
 
@@ -333,6 +335,16 @@ svg text {
 
 /*corpo do site/saúde*/
 
+.saude_saude {
+    text-align: justify;
+    border: 2px solid none;
+    margin: 30px;
+    padding: auto;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  
+}
 
 /*corpo do site/comportamento*/
 
