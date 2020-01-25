@@ -194,11 +194,13 @@ color: #7097a8;
 .eu_pug {
     max-width: 100%;
     margin-top: 1px;
+    margin-left: 100px;
     width: 800px;
     height: 800px;
     top: 10px;
     padding: 30px;
     content: auto;
+    align-items: center;
     
 }
 
@@ -333,6 +335,16 @@ svg text {
 
 /*corpo do site/saúde*/
 
+.saude_saude {
+    text-align: justify;
+    border: 2px solid none;
+    margin: 30px;
+    padding: auto;
+    text-indent: 50px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+  
+}
 
 /*corpo do site/comportamento*/
 
@@ -346,67 +358,129 @@ svg text {
 .botFooter {
 background: #7097a8;
 margin: 0;
+}
+/*
 width: 100%;
 height: 100%;
-}
+*/
+
 
 .text_footer {
 margin: 20px;
 padding: 10px;
 line-height: auto;
-width: 50%;
-height: 400px;
+width: 49%;
+max-width: 50%;
 float: left;
+position: relative;
 }
 
 .text_footer h3{
 text-transform: uppercase;
 padding: 30px;
-
 }
 
 .text_footer p{
 line-height: 35px;
 }
 
+/* Campo Formulário*/
+
+
+
 .formulario_total {
+margin-bottom: 10px;
 margin-top: 50px;
 }
 
 
-.formulario {
-margin: 10px;
-padding-top: 20px;
-padding: 10px;
-width: 50%;
-height: 100%;
-float: right;
+/*Formulário*/
+
+fieldset {
+    border:0;
+}
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
 }
 
 
 
-
-#area {
-margin: 0px;
-padding: 1px; 
-width: 600px;
-height: 300px;
+.campo {
+    margin-bottom: 1em;
 }
 
-.campo_nome {
-width: 100%;
-height: 25px;
+.campo label {
+    margin-bottom: 0.2em;
+    color: rgb(102, 102, 102);
+    display: block;
 }
 
-.campo_email {
-width: 100%;
-height: 25px;
-
+fieldset .campo .formulario {
+    float: right;
+    margin-right: 10px;
 }
 
-.msg {
-width: 100%;
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
 }
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #FFC;
+}
+
+.campo label.checkbox {
+    color: #000;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.botao {
+    font-size: 1.5em;
+    background: rgb(14, 137, 219);
+    border: 0;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao:hover {
+    background: rgb(14, 137, 219);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+
+
+
+/*fim formulário*/
 
 .address {   
 padding:10px;
