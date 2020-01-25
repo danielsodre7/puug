@@ -371,11 +371,6 @@ padding: 10px;
 line-height: auto;
 width: 49%;
 max-width: 50%;
-<<<<<<< HEAD
-=======
-height: 400px;
-max-height: 500Px;
->>>>>>> 971f2818af3b15ab00e3f90b2e1e8ce092e8ad23
 float: left;
 position: relative;
 }
@@ -389,33 +384,9 @@ padding: 30px;
 line-height: 35px;
 }
 
-<<<<<<< HEAD
 /* Campo Formulário*/
 
 
-=======
-/*Formulário*/
-
-
-fieldset {
-    border:0;
-}
-
-input, select, textarea, button {
-    font-family: sans-serif;
-    font-size: 1em;
-}
-
-.area:before, .area:after {
-    content: " ";
-    display: table;
-}
-
-.area:after {
-    clear: both;
-}
-
->>>>>>> 971f2818af3b15ab00e3f90b2e1e8ce092e8ad23
 
 .formulario_total {
 margin-bottom: 10px;
@@ -423,7 +394,6 @@ margin-top: 50px;
 }
 
 
-<<<<<<< HEAD
 /*Formulário*/
 
 fieldset {
@@ -442,69 +412,12 @@ input, select, textarea, button {
 
 .grupo:after {
     clear: both;
-=======
-.area label {
-    margin-bottom: 0.2em;
-    color: #666;
-    display: block;
 }
 
-fieldset .area .formulario {
-    float: left;
-    margin-right: 10px;
->>>>>>> 971f2818af3b15ab00e3f90b2e1e8ce092e8ad23
-}
 
-.campo input[type="text"],
-.campo input[type="email"],
-.campo input[type="url"],
-.campo input[type="tel"],
-.campo select,
-.campo textarea {
-    padding: 0.2em;
-    border: 1px solid #CCC;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    display: block;
-}
 
-.area select option {
-    padding-right: 1em;
-}
-
-<<<<<<< HEAD
 .campo {
     margin-bottom: 1em;
-=======
-.area input:focus, .campo select:focus, .campo textarea:focus {
-    background: #FFC;
-}
-
-.area label.checkbox {
-    color: #000;
-    display: inline-block;
-    margin-right: 1em;
-}
-
-.botao {
-    font-size: 1.5em;
-    background: rgb(11, 9, 155);
-    border: 0;
-    margin-bottom: 1em;
-    color: #FFF;
-    padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-}
-
-.botao:hover {
-    background: rgb(11, 9, 155);
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: none;
-}
-
-.botao, select, label.checkbox {
-    cursor: pointer;
->>>>>>> 971f2818af3b15ab00e3f90b2e1e8ce092e8ad23
 }
 
 .campo label {
@@ -513,7 +426,6 @@ fieldset .area .formulario {
     display: block;
 }
 
-<<<<<<< HEAD
 fieldset .campo .formulario {
     float: right;
     margin-right: 10px;
@@ -537,42 +449,7 @@ fieldset .campo .formulario {
 
 .campo input:focus, .campo select:focus, .campo textarea:focus {
     background: #FFC;
-=======
-
-.campo_email {
-width: 100%;
-height: 25px;
 }
-
-.msg {
-    width: 100%;
-}
-
-
-/*fim formulário*/
-
-/*
-
-.formulario {
-margin: 10px;
-padding-top: 20px;
-padding: 10px;
-width: 50%;
-height: 100%;
-float: right;
-}
-
-
-#area {
-margin: 0px;
-padding: 1px; 
-width: 600px;
-height: 300px;
->>>>>>> 971f2818af3b15ab00e3f90b2e1e8ce092e8ad23
-}
-*/
-
-
 
 .campo label.checkbox {
     color: #000;
@@ -615,9 +492,9 @@ position: static;
 }
 
 .address {
-    text-size-adjust: auto;
-    text-align: justify;
-    color: beige;
-    
+text-size-adjust: auto;
+text-align: justify;
+color: beige;
+
 }
 
