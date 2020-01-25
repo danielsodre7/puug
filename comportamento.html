@@ -100,39 +100,28 @@
 
     <Div class="formulario_total">
 
-        <fieldset>
-
-        </fieldset>   
-            <fieldset id="grupo">
-                <form name="contact" method="POST" data-netlify="true">
-                        
-                    <legend>Me conte algo:</legend>
-
-                    <div class="campo">
-                        <label for="nome">Qual o seu nome:</label>
-                        <input type="text" id="nome" name="nome" style="width: 25em" value="">
-                    </div>
-
+        <Div class="grupo">   
+            <form name="contact" method="POST" data-netlify="true">
                     
-                    <div class="campo">
-                        <label for="nome">Qual o do(s) seu filhote(s):</label>
-                        <input type="text" id="nome" name="nome" style="width: 25em" value="">
-                    </div>
+                <legend>Me conte algo ai:</legend>
 
-                    <div class="campo">
-                        <label for="email">E-mail para te responder:</label>
-                        <input type="text" id="email" name="email" style="width: 25em" value="">
-                    </div>
-                    
+                <div class="campo">
+                    <label>Qual o seu nome: <input type="text" id="nome" name="name" style="width: 25em" value=""/></label> 
+                </div>
 
-                    <div class="campo">
-                        <label for="mensagem">Pode abrir seu coraçãozinho:</label>
-                        <textarea rows="6" style="width: 25em" id="mensagem" name="mensagem"></textarea>
-                    </div>   
-                
-                    <button class="botao" type="submit">Vai lá</button>
-            </fieldset>
-        </fieldset>
+                <div class="campo">
+                    <label>E-mail para te responder: <input type="email" id="email" name="email" style="width: 25em" value=""/></label>
+                </div>
+
+                <div class="campo">
+                    <label>Pode abrir seu coraçãozinho: <textarea rows="6" style="width: 25em" id="mensagem" name="message"></textarea></label>
+                </div>   
+            
+                <button class="botao" type="submit">Vai lá</button>
+
+            </form>    
+        </Div> 
+
     </Div>
     
     
