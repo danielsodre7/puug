@@ -103,13 +103,28 @@ background:inherit;
 
 #total {
 grid-template-areas: "header" "article" "aside" "footer" "address";
-width: 100%;
+width: 600px;
+height: auto;
+
 }
 
 .headerNav { 
 grid-area: header;
 margin-top: 10px;
 width: 100%;
+background: #f68d3d;    
+padding: 5px;
+border: 0px;
+margin-bottom: 0px;
+}
+
+.banner {
+position: relative;
+width: 0%;
+height: 0%;
+margin-bottom: 0px;
+float:center;
+
 }
 
 .topHeader {
@@ -118,7 +133,7 @@ text-decoration: none;
 text-transform:uppercase;
 font-size: 20px;
 padding: 10px 10px;
-background: #7097a8;
+background: #c95927;
 }
 
 
@@ -133,6 +148,68 @@ svg text {
     font-size: 30px; 
 }
 
+
+.eu_pug {
+    max-width: 100%;
+    margin-top: 1px;
+    margin-left: 100px;
+    width: 800px;
+    height: 800px;
+    top: 10px;
+    padding: 30px;
+    content: auto;
+    align-items: center;
+    
+}
+
+.botFooter {
+    background: #2a94d1;
+    margin: 0;
+    }
+
+
+    
+.text_footer {
+margin: 0px;
+padding: 10px;
+line-height: auto;
+width: 490px;
+max-width: 490px;
+float: left;
+position: relative;
+margin-bottom: 50px;
+}
+
+.text_footer h3{
+text-transform: uppercase;
+padding: 30px;
+}
+
+.text_footer p{
+line-height: 35px;
+padding: 30px;
+}
+
+
+.formulario_total {
+padding: 30px;
+}
+
+
+
+.address {   
+    padding:10px;
+    margin-bottom: 20px;
+    height: 100px;
+    background:#223f84;
+    position: static;
+    }
+    
+    .address p{
+    text-size-adjust: auto;
+    text-align: justify;
+    color: beige;
+    padding: 100px;
 
 
 /*
