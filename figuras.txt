@@ -82,6 +82,7 @@ imagem pata pra cima
 
 
 =======
+<<<<<<< HEAD
 
 
 
@@ -122,5 +123,47 @@ imagem pata pra cima
 
 
 
+=======
+
+
+
+Faltam as imagens
+
+
+pagina de caracteristicas:
+
+- pug 4 amigos
+
+pagina de saúde:
+
+Pug saude anatomia
+
+-Rosto achatados
+-Olhos
+-Estomago e intestino
+-Vertebras e ossos
+-Pele
+-Parto
+Temperatura 
+
+
+-Vacinas
+-Alimentação
+-Banho
+-escobação
+-exercicio
+-Calor
+-Orelhas
+-Rosto
+-Olhos
+-Partes intimas
+
+conportamendo
+
+imagem pata pra cima
+
+
+
+>>>>>>> 8712ce9e9ef39683ad540d5f84fdcf8b3223f619
 >>>>>>> 2cb52bbe7fee4a13059c96d1e7ac3e5103f44b26
 >>>>>>> 971f2818af3b15ab00e3f90b2e1e8ce092e8ad23

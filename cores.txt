@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Site:
 
@@ -23,3 +24,30 @@ b8d652
 
 
 
+=======
+
+Site:
+
+Marrom
+c95927
+f68d3d
+fec546 
+
+rodapé
+
+Azul
+13214a
+223f84
+2a94d1
+a8c8e9
+
+
+Dicas:
+Verde
+254f2e
+63bd4e
+b8d652
+
+
+
+>>>>>>> 8712ce9e9ef39683ad540d5f84fdcf8b3223f619
