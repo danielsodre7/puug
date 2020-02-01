@@ -10,32 +10,24 @@ background-color: rgb(214, 212, 212);
 
 /*Banner e parte de cima*/
 
-.topHeader {
-float: right;
-text-decoration: none;
-text-transform:uppercase;
-font-size: 20px;
+
+.topHeader{
 padding: 0;
 background: #c95927;
-}
-
-.topHeader {
-padding: 0;
 margin: 0;
 }
 
-.banner{
-position: relative;
+.banner {
+position: static;
 width: 100%;
-height: 100%;
 margin-bottom: 0px;
 max-height: 425px;
+min-width: 100%;
 }
 
+    
 
 /*Menu*/
-/*testando*/
-
 .headerNav {
 width: 100%;
 height: 50px;
@@ -50,7 +42,7 @@ list-style: none;
 }
 
 .headerNav ul li{
-width: 150px;
+width: 155px;
 height: 100%;
 float: left;    
 }
@@ -99,43 +91,6 @@ position: relative;
 display: none;
 }
    
-
-/*
-.headerNav {
-width: 100%;
-height: 50px;
-background: #c95927;    
-padding: 5px;
-border: 0px;
-margin-bottom: 0px;
-margin-top: -3px;
-}
-
-.headerNav ul{
-float: right;
-}
-
-.headerNav ul li{
-display: inline;
-box-align:center;
-}
-
-.headerNav ul li a {
-text-decoration: none;
-text-align:center;
-text-transform: uppercase;
-border: 0px solid #fff;
-padding: 10px 10px;
-color: #fec546;
-background:none;
-} 
-
-
-
-.headerNav  a:hover {
-color: none;
-}
-*/
 /*dicas do site*/
 
 .dicatotal {
@@ -311,41 +266,6 @@ padding: 60px;
 color: blueviolet;
 
 }
-
-
-
-/*teste
-
-.eu_pug {
-    background-color: burlywood;
-    width: auto;
-    max-width: 100%;
-    content: 100%;
-    background-image: unset;
-}
-
-.eu_pug map {
-        width: 800px;
-        height: 800px;
-        max-width: 800px;
-        max-height: 800px;
-        justify-items: auto;
-    
-}
-
-.eu_pug img {
-    max-width: 100%;
-
-}
-.eu_pug svg {
-    z-index: 3;
-    position: absolute;
-    max-width: 100%;
-    top:auto; left:0px;
-    float: right;
-
-}
- */
 
 
 /*corpo do site/história*/
@@ -560,6 +480,7 @@ color: beige;
 #total{
 height: 0;
 margin: 0;
+width: 100%;
 background-color: rgb(214, 212, 212);
 }
 
@@ -576,10 +497,21 @@ padding: 0;
 margin: 0;
 }
 
+.banner {
+margin: 0;
+padding: 0;
+height: 0;
+width: 0;
+float: left;
+position: absolute;
+
+}
+
 /*MENU*/
 label[for="bt_menu"] {
 display: block;
 position: absolute;
+float: left;
 }
 
 .headerNav  a:hover{
@@ -612,15 +544,59 @@ font-size: 0;
 }
 
 .eu_pug {
-max-width: 100%;
+float: right;
+max-width: 425px;
 margin-top: 1px;
-margin-left: 100px;
-width: 800px;
-height: 800px;
+width: 100%;
+height: 100%;
 top: 10px;
-padding: 30px;
+padding: 0;
 content: auto;
 align-items: center;
+}
+
+.eu_pug p {
+top: 10px;
+left: 10px;
+}
+
+.imagem1 {
+top: 10px;
+margin-left: 0px;
+width: 100%;
+height: 100%;
+color: brown;
+text-transform: uppercase;
+}
+path { 
+transition: .6s fill;
+fill: rgb(255, 255, 255);
+}
+
+text { 
+opacity: 0;
+font-size: 28px; 
+background: bisque;
+}
+
+path:hover {
+fill: #CB8A5F;
+cursor: pointer;
+stroke:  rgb(66, 48, 35);
+}
+
+
+path:hover + text { opacity: 1; }
+
+svg text { 
+transition: .3s; 
+font: 20px arial, sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 3px;
+text-shadow: 4px 3px rgb(226, 184, 128);
+padding: 60px;
+color: blueviolet;
 }
 
 /*RODAPÉ*/
