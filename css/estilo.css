@@ -93,18 +93,41 @@ grid-area: address;
 }
 
 
+@media screen and (max-width: 800px) {
 
-@media screen and (max-width: 768px) {
+    body {
+    background:inherit;
+    }
+    
+    #total {
+    display: grid;
+    grid-template-areas: "header" "nav" "article " "aside" "footer" "address" ;
+    grid-template-rows: auto auto auto auto auto;
+    grid-auto-columns: 100%;
+    height: 100%;
+    }
 
-body {
-background:inherit;
-}
-
-#total {
-display: grid;
-grid-template-areas: "header" "nav" "article " "aside" "footer" "address" ;
-grid-template-rows: auto auto auto auto auto;
-grid-auto-columns: 100%;
-font-family: 'Prompt', sans-serif;
-}
+    .topHeader{
+        grid-area: header;
+        }
+        
+        .headerNav{
+        grid-area: nav;
+        }
+        
+        .totArticle{
+        grid-area: article;
+        }
+        
+        .dicas{
+        grid-area: aside;
+        }
+        
+        .botFooter{
+        grid-area: footer;
+        }
+        .address{
+        grid-area: address;
+        }
+        
 }    
