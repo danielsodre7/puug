@@ -14,6 +14,7 @@ background-color: rgb(214, 212, 212);
 .topHeader{
 padding: 0;
 background: #c95927;
+width: 100%;
 margin: 0;
 }
 
@@ -90,77 +91,6 @@ position: relative;
 #bt_menu{
 display: none;
 }
-   
-/*dicas do site*/
-
-.dicatotal {
-height: 100%;
-margin: auto;
-padding: 1px;
-overflow: hidden;
-}
-
-.dicas {
-border: 0px solid black;
-width: 100%;
-height: 160px;
-padding: 20px;
-text-align: center;
-margin-top: 10px;
-margin-bottom: 10px;
-font-family: 'Arvo', serif;
-background: #fec546;
-box-shadow: 1px 2px 6px #c95927;
-}
-
-
-.topodica {
-margin-bottom: 5px;
-text-align: center;
-padding: 1px;
-}
-
-
-.dicas h2 {
-height: 15%;
-color: #c95927;
-}
-
-.texto_dicas {
-overflow: hidden;
-line-height: 90%;
-height: 80%;
-max-height: 90%;
-text-overflow: ellipsis;
-color: #c95927;
-}
-
-.leia_mais{
-position: relative;
-bottom: auto;
-text-align: right;
-padding: 0px;
-margin-bottom: -1px;
-}
-
-
-.leia_mais a{
-color: #c95927;   
-}
-
-.leia_mais a:link {
-color:none;
-}
-.leia_mais a:visited {
-color:none;
-}
-.leia_mais a:hover {
-color:none;
-}
-.leia_mais a:active {
-color:none;
-}
-
 
 /*corpo do site*/
 
@@ -168,6 +98,8 @@ color:none;
 margin: 2px;
 border: none;
 padding: 2px;
+width: 100%;
+float: left;
 }
 
 .totArticle h2 {
@@ -191,7 +123,6 @@ color: #7097a8;
 
 /*corpo do site/index*/
 
-
 .eu_pug{
 max-width: 100%;
 margin-top: 1px;
@@ -203,7 +134,6 @@ padding: 30px;
 content: auto;
 align-items: center;
 }
-
 
 .eu_pug p {
 width: 100%;
@@ -266,24 +196,18 @@ padding: 60px;
 color: blueviolet;
 
 }
-
-
 /*corpo do site/história*/
 
 .pugdir img{
 width: 260px;
 height:260px;
 float: left;
-
 }
 
 .pugesq img{
 width: 260px;
 height:260px;
 float: right;
-
-
-
 }
 
 .pugesq p{
@@ -303,29 +227,83 @@ text-indent: 50px;
 letter-spacing: 1px;
 line-height: 1.8;
 } 
-
-
 /*corpo do site/caracteristicas*/
 
 
 /*corpo do site/saúde*/
-
 .saude_saude {
-    text-align: justify;
-    border: 0px solid none;
-    margin: 30px;
-    padding: auto;
-    text-indent: 50px;
-    letter-spacing: 1px;
-    line-height: 1.8;
-  
+text-align: justify;
+border: 0px solid none;
+margin: 30px;
+padding: auto;
+text-indent: 50px;
+letter-spacing: 1px;
+line-height: 1.8;
 }
 
 /*corpo do site/comportamento*/
 
+   
+/*dicas do site*/
 
+.dicatotal {
+height: 100%;
+margin: auto;
+padding: 1px;
+overflow: hidden;
+}
 
+.dicas {
+border: 0px solid black;
+width: 100%;
+height: 160px;
+padding: 20px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: 'Arvo', serif;
+background: #fec546;
+box-shadow: 1px 2px 6px #c95927;
+}
 
+.dicas h2 {
+height: 15%;
+color: #c95927;
+}
+
+.texto_dicas {
+overflow: hidden;
+line-height: 90%;
+height: 80%;
+max-height: 90%;
+text-overflow: ellipsis;
+color: #c95927;
+}
+
+.leia_mais{
+position: relative;
+bottom: auto;
+text-align: right;
+padding: 0px;
+margin-bottom: -1px;
+}
+
+.leia_mais a{
+color: #c95927;   
+}
+
+.leia_mais a:link {
+color:none;
+}
+.leia_mais a:visited {
+color:none;
+}
+.leia_mais a:hover {
+color:none;
+}
+.leia_mais a:active {
+color:none;
+}
 
 
 /*rodapé do site*/
@@ -490,10 +468,7 @@ background-color: rgb(214, 212, 212);
 
 .topHeader {
 background: #c95927;
-}
-
-.topHeader {
-height: 0px;
+height: 2px;
 width: 100%;
 padding: 0;
 margin: 0;
@@ -512,11 +487,10 @@ position: absolute;
 /*MENU*/
 label[for="bt_menu"] {
 display: block;
-position: absolute;
+position: fixed;
 float: left;
 width: 50px;
 height: 50px;
-
 }
 
 .headerNav  a:hover{
@@ -532,6 +506,7 @@ margin-left: 0;
 margin-top: 0px;
 margin-left: -100%;
 transition: all .8s;
+position: fixed;
 }
 
 .headerNav ul li {
@@ -545,12 +520,25 @@ width: 100%;
 
 /*CORPO*/
 
-.totArticle h2 {
+.article_resp{
+float: left;
+width: 100%;
+}
+
+.article_resp h2{
+margin-top: 50px;
+margin-left: 50px;
 font-size: 30px;
 max-width: 400px;
 text-align: justify;
 color: chocolate;
 text-shadow: 3px 2px rgba(255, 145, 0, 0.411);
+}
+
+.article_resp p{
+    margin-left: 50px;
+    font-size: 20px;
+
 }
 
 
@@ -559,7 +547,6 @@ font-size: 0;
 }
 
 .eu_pug {
-float: right;
 max-width: 425px;
 margin-top: 1px;
 width: 100%;
@@ -567,7 +554,7 @@ height: 100%;
 top: 10px;
 padding: 0;
 content: auto;
-align-items: center;
+align-items:center;
 }
 
 .eu_pug p {
@@ -616,11 +603,19 @@ color: blueviolet;
 
 /*DICAS*/
 
+.dicatotal {
+height: 100%;
+margin: auto;
+padding: 1px;
+float: right;
+}    
+
 .dicas {
 border: 0px solid black;
 width: 100%;
 height: 120px;
 padding: 20px;
+float: right;
 }
 
 /*RODAPÉ*/
