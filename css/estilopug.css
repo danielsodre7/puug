@@ -241,6 +241,8 @@ letter-spacing: 1px;
 line-height: 1.8;
 }
 
+
+
 /*corpo do site/comportamento*/
 
    
@@ -527,7 +529,7 @@ width: 100%;
 
 .article_resp h2{
 margin-top: 50px;
-margin-left: 50px;
+margin-left: 10px;
 font-size: 30px;
 max-width: 400px;
 text-align: justify;
@@ -535,19 +537,19 @@ color: chocolate;
 text-shadow: 3px 2px rgba(255, 145, 0, 0.411);
 }
 
-.article_resp p{
-    margin-left: 50px;
-    font-size: 20px;
-
+.article_resp p {
+top: 10px;
+left: 10px;
+width: 90%;
+margin-left: 20px;
 }
-
-
+    
 svg text { 
 font-size: 0; 
 }
 
 .eu_pug {
-max-width: 425px;
+max-width: 300px;
 margin-top: 1px;
 width: 100%;
 height: 100%;
@@ -557,18 +559,16 @@ content: auto;
 align-items:center;
 }
 
-.eu_pug p {
-top: 10px;
-left: 10px;
-}
-
 .imagem1 {
 top: 10px;
 margin-left: 0px;
+margin-right: 0px;
+max-width: 400px;
 width: 100%;
 height: 100%;
 color: brown;
 text-transform: uppercase;
+position: static;
 }
 path { 
 transition: .6s fill;
@@ -600,6 +600,45 @@ text-shadow: 4px 3px rgb(226, 184, 128);
 padding: 60px;
 color: blueviolet;
 }
+
+.saude_saude h3{
+text-align: center;
+font-size: 20px;
+width: 95%;
+}
+
+.saude_saude p{
+width: 100%;
+margin-left: 0px;
+}
+
+.saude_saude table{
+width: 100%;
+}
+
+.saude_saude table tr{
+text-align: right;
+text-justify: distribute;
+width:120px;
+border:1px;
+margin-left: 0;
+}
+
+.saude_saude table th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #c95927;
+color: white;
+margin-left: 1px;
+}
+
+.saude_saude table td{
+text-align: right;
+width:100px;
+border-bottom: 1px solid #c95927;
+}
+
 
 /*DICAS*/
 
@@ -642,6 +681,8 @@ padding: 30px;
 .text_footer p{
 line-height: 35px;
 padding: 30px;
+margin-left: 20px;
+margin-right: 20px;
 }
 
 
@@ -655,22 +696,37 @@ padding: 30px;
     border: 1px solid #CCC;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
-    width: 100%;
+    width: 95%;
+    margin-left: 10px;
 }
 
+.grupo p{
+    margin-left: 10px;
+}
+
+.grupo legend{
+margin-left: 10px;
+margin-bottom: 20px;
+}
+
+.botao{
+margin-left: 160px;    
+}
 
 .address{   
 padding: 0px;
+width: 100%;
 height: 100px;
 background:#223f84;
+
 }
 
 
 .address p{
 color: beige;
-margin: 10px;
+margin-right: 35px;
 text-align: justify;
-height: 200px;
+height: 100%;
 width: 100%;
 }
 
