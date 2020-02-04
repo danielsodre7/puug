@@ -561,10 +561,10 @@ align-items:center;
 
 .imagem1 {
 top: 10px;
-margin-left: 0px;
+margin-left: 1px;
 margin-right: 0px;
 max-width: 400px;
-width: 100%;
+width: 95%;
 height: 100%;
 color: brown;
 text-transform: uppercase;
