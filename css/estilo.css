@@ -64,7 +64,7 @@ table {
 #total {
 display: grid;
 grid-template-areas: "header header " "nav nav" "article aside" "footer footer" "address address" ;
-grid-template-rows: 400px auto auto auto 20px;
+grid-template-rows: 400px auto auto auto 30px;
 grid-auto-columns: 80% 20%;
 font-family: 'Prompt', sans-serif;
 }
@@ -92,6 +92,12 @@ grid-area: footer;
 grid-area: address;
 }
 
+@media (max-aspect-ratio: 3/2){
+	.topHeader{
+		
+		padding: unset;
+	}
+}
 
 @media screen and (max-width: 800px) {
 
