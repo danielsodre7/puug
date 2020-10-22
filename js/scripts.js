@@ -29,7 +29,7 @@ document.querySelector (".modal_dicas").addEventListener('click', function() {
     modalDicas.querySelector("iframe").src=""
 } )
 
-
+/*
 (function(){
     (document).on( 'scroll', function(){
         if ((window).scrollTop() > 100) {
@@ -48,4 +48,4 @@ function scrollToTop() {
     offsetTop = offset.top;
     ('html, body').animate({scrollTop: offsetTop}, 600, 'linear').animate({scrollTop:25},200).animate({scrollTop:0},150) .animate({scrollTop:0},50);
 }
-
+*/
