@@ -98,6 +98,160 @@ position: relative;
 display: none;
 }
 
+/*PAGINA INICIO NEWS */
+
+.prin_tipodepug{
+margin: 5px;
+}
+
+.prin_tipodepug h2{
+text-align: center;
+}
+
+.typpugbut{
+margin: 15px 0px;
+font-size: 20px;
+color: chocolate;
+text-shadow: 3px 2px rgba(255, 145, 0, 0.411);
+}
+
+.butttyppug{
+margin-right: 25%;
+margin-left: 25%;
+}
+
+.prin_tipodepug {
+align-content: center;
+height: 100%;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(151, 188, 243);
+}
+
+
+
+.prin_tipodepug img {
+height: 400px;
+width: 100%;
+}
+
+.typpugbut{
+width: 90px;
+height: 50px;
+border: none;
+margin-left: auto;
+margin-right: auto;
+background: none;
+}
+
+.prin_curiosidade {
+height: 150px;
+width: 49%;
+margin: 5px;
+float: left;
+background-color: burlywood;
+}
+
+#BarrigaPcima {
+position:relative;
+left: 0%;
+top: 0%;
+height: 110px;
+margin-left: 0px;
+margin-top: -40px;
+}
+
+.conteudodicas .prin_curiosidade h3 {
+font-size: 40px;
+text-align: center;
+color: crimson;
+}
+
+.conteudodicas .prin_curiosidade_banner {
+height: 150px;
+width: 100%;
+margin: 5px;
+float: right;
+background-color: burlywood;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.conteudodicas .prin_curiosidade_banner h3 {
+font-size: 40px;
+text-align: center;
+color: crimson;
+}
+
+
+.conteudodicas .prin_links_ultis {
+height: auto;
+width: 100%;
+margin: 5px;
+float: right;
+background-color: burlywood; 
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.conteudodicas .prin_links_ultis h3 {
+font-size: 40px;
+text-align: center;
+color: crimson;
+}
+.conteudodicas .prin_links_ultis p {
+text-align: center;    
+}
+
+/*Modal*/
+.modal_dicas {
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    opacity: 0;
+    visibility: hidden;
+    max-width: 1280px;
+}
+
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+
+.modal .close_modal {
+    color: black;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.dicas_aqui iframe {
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    position: absolute;
+}
+   
+/*Modal ativo*/
+
+.modal_dicas.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*PAGINA DICAS FIM*/
+
 /*corpo do site*/
 
 .totArticle {
@@ -395,73 +549,73 @@ color:none;
 
 /*PAGINA DICAS*/
 
-.totalDicas{
-    z-index: 10;
-    font-family: 'Dosis', sans-serif;
-    }
-    
-    .article_resp{
-        margin-top: 1px;
-    }
-    
-    .form_dica img{
-    width: 40%;
-    height: 40%;
-    margin-top: -90px;
-    position: static;
-    float: right;
-    z-index: -1;
-    }
-    
-    .totalDicas h1{
-    font-size: 30px;
-    margin-left: 5px;
-    margin-top: 5px;
-    width: 100%;
-    float: left;
-    }
-    
-    .dica_pug_resp{
-    margin: 0;
-    padding: 0;
-    margin-left: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    }
-    
-    .dica_pug_resp h2{
-    margin-top: 40px;
-    margin-left: 20px;
-    text-align: left;
-    color: #c95927;
-    text-shadow: none;
-    font-size: 20px;
-    width: 100%;
-    }
-    
-    .dica_pug_resp h3{
-    margin-left: 40px;
-    margin-top: 10px;
-    }
-    
-    .dica_pug_resp p {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    bottom: 10px;
-    }
-    
-    .corpo_dica{
-    content: 10px;
-    padding: 10px;
-    height: 100%;
-    margin: 5px;
-    background-color:#f6ca96 ;
-    text-size-adjust: auto;
-    border-radius: 15px ;
-    text-align: justify; 
-    }
-    
-    
+.dicas_resp{
+font-family: 'Dosis', sans-serif;
+width: auto;
+}
+
+.article_resp{
+margin-top: 1px;
+}
+
+.form_dica img{
+width: 40%;
+height: 40%;
+margin-top: -90px;
+position: static;
+float: right;
+z-index: -1;
+}
+
+.dicas_resp h1{
+font-size: 30px;
+margin-left: 5px;
+margin-top: 5px;
+width: 100%;
+float: left;
+}
+
+.dica_pug_resp{
+margin: 0;
+padding: 0;
+margin-left: 0px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.dica_pug_resp h2{
+margin-top: 40px;
+margin-left: 20px;
+text-align: left;
+color: #c95927;
+text-shadow: none;
+font-size: 20px;
+width: 100%;
+}
+
+.dica_pug_resp h3{
+margin-left: 40px;
+margin-top: 10px;
+}
+
+.dica_pug_resp p {
+margin-top: 20px;
+margin-bottom: 10px;
+bottom: 10px;
+}
+
+.corpo_dica{
+content: 10px;
+padding: 10px;
+height: 100%;
+margin: 5px;
+background-color:#f696be ;
+text-size-adjust: auto;
+border-radius: 15px ;
+text-align: justify; 
+}
+
+
 
 /*rodapé do site*/
 
