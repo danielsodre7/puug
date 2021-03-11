@@ -5,10 +5,11 @@
 height: 0;
 margin: 0;
 max-width: 1280px;
-background-color:#FBEEE6;
+background-color:#FFF;
 font-family: 'Dosis', sans-serif;
 margin-left: auto;
 margin-right: auto;
+border-radius: 10px;
 }
 
 
@@ -126,7 +127,7 @@ height: 100%;
 width: 100%;
 margin-left: auto;
 margin-right: auto;
-background-color: rgb(151, 188, 243);
+background-color: #ffffff;
 }
 
 
@@ -150,7 +151,7 @@ height: 150px;
 width: 49%;
 margin: 5px;
 float: left;
-background-color: burlywood;
+background-color: rgb(255, 238, 217);
 }
 
 #BarrigaPcima {
@@ -165,7 +166,7 @@ margin-top: -40px;
 .conteudodicas .prin_curiosidade h3 {
 font-size: 40px;
 text-align: center;
-color: crimson;
+color: rgb(173, 56, 27);
 }
 
 .conteudodicas .prin_curiosidade_banner {
@@ -173,7 +174,7 @@ height: 150px;
 width: 100%;
 margin: 5px;
 float: right;
-background-color: burlywood;
+background-color: rgb(255, 238, 217);
 margin-left: auto;
 margin-right: auto;
 
@@ -182,7 +183,7 @@ margin-right: auto;
 .conteudodicas .prin_curiosidade_banner h3 {
 font-size: 40px;
 text-align: center;
-color: crimson;
+color: rgb(173, 56, 27);
 }
 
 
@@ -191,7 +192,7 @@ height: auto;
 width: 100%;
 margin: 5px;
 float: right;
-background-color: burlywood; 
+background-color: rgb(255, 238, 217); 
 margin-left: auto;
 margin-right: auto;
 
@@ -495,7 +496,7 @@ overflow: hidden;
 .dicas{
 border: 0px solid black;
 width: 100%;
-height: 160px;
+height: 180px;
 padding: 20px;
 text-align: center;
 margin-top: 10px;
@@ -520,6 +521,31 @@ text-overflow: ellipsis;
 color: #c95927;
 }
 
+.topo_dicas{
+border: 0px solid black;
+width: 100%;
+height: 80px;
+padding: 20px;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+font-family: 'Arvo', serif;
+background: #f9E07F;
+box-shadow: 1px 2px 6px #F9Ad6A;
+}
+
+.topo_dicas h2 {
+height: 15%;
+color: #c95927;
+margin-bottom: 15px;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 47px;
+}
+
+
+/*
 .leia_mais{
 position: relative;
 bottom: auto;
@@ -546,6 +572,7 @@ color:none;
 .leia_mais a:active {
 color:none;
 }
+*/
 
 /*PAGINA DICAS*/
 
@@ -658,6 +685,7 @@ margin-bottom: 10px;
 margin-top: 50px;
 width: 100%;
 float: none;
+border-radius: 30px;
 }
 
 fieldset {
