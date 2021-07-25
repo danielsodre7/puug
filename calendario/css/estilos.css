@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.total {
+    display: grid;
+    grid-template-areas: "nav nav" "aside article " "footer footer";
+    grid-template-rows: 8% 87% 5%;
+    grid-auto-columns: 15% 85%;
+    font-family: 'Prompt', sans-serif;
+    height: 900px;
+}
+    
+
+.headerNav{
+grid-area: nav;
+background-color: rgb(196, 222, 252);
+}
+
+.lateral{
+grid-area: aside;
+background: rgb(241, 239, 235);
+}
+
+.calendario{
+grid-area: article;
+background-color: rgb(238, 225, 227);
+}
+
+.botFooter{
+grid-area: footer;
+background-color:  rgb(196, 222, 252);
+}
+
+

@@ -39,6 +39,7 @@ height: 50px;
 background: #FBC78D;   
 margin-top: 0px;
 
+
 }
 
 .headerNav ul{
@@ -49,10 +50,11 @@ list-style: none;
 }
 
 .headerNav ul li{
-width: 155px;
-height: 100%;
+width: 160px;
 float: left;
-margin-right: 20px;
+margin-right: 6px;
+text-align: left;
+
 }
 
 .headerNav a{
@@ -70,16 +72,8 @@ color: #CB8A5F;
 background-color:#FBC78D;
 }
 
-.headerNav ul ul {
-position: absolute;
-visibility: hidden;
-}
 
-.headerNav ul ul li {
-float: none;
-border-bottom: solid 1px #F9E07F;
-}
-
+/* LABAL DE DICAS*/
 
 label[for="bt_menu"]{
 padding: 5px;
@@ -856,6 +850,8 @@ z-index: 1;
 .headerNav ul li {
 width: 100%;
 float: none;
+
+
 } 
 
 .headerNav ul{
