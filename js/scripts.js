@@ -10,8 +10,6 @@ for (element of menuPrincipal){
         event.target.style.backgroundColor = "#c94444";
 
 
-
-
         
 
         setTimeout(function() {
