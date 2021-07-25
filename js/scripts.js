@@ -1,6 +1,37 @@
+let menuPrincipal = document.querySelectorAll('ul li');
+
+for (element of menuPrincipal){
+    element.addEventListener('mouseover', (event)=>{
+    
+       event.target.style.border = "2px solid #c94444";
+        event.target.style.background = "url(../imagem/pata.svg)";
+        event.target.style.backgroundRepeat = "repeat-y";
+        event.target.style.backgroundPosition = "center center";
+        event.target.style.backgroundColor = "#c94444";
+
+        setTimeout(function() {
+            event.target.style.background = "";            
+        }, 400)
+
+        setTimeout(function() {
+            event.target.style.border = "";
+        }, 800)
+
+
+    }, false);
+}
+
+
+
+
 const modalDicas =document.querySelector('.modal_dicas')
 const dicaJ = document.querySelectorAll('.dicas')
 const textoJ = document.querySelectorAll('.texto_dica')
+
+document.querySelector (".modal_dicas").addEventListener('click', function() {
+    modalDicas.classList.remove("active")
+    modalDicas.querySelector("iframe").src=""
+} )
 
 for (let dicas of dicaJ) {
     dicas.addEventListener("click", function(){
@@ -10,25 +41,6 @@ for (let dicas of dicaJ) {
         
     })
 }
-
-/*
-for (let texto_dica of textoJ) {
-    texto_dica.querySelector('texto_dica', function(){
-        const dicasId = dicas.getAttribute("id")
-        textoJ.querySelector('.texto_dica').src=`dicas/${dicasId}.html`
-        document.getElementById('.corpo_dica')
-       
-
-        
-     })
-}
-*/
-
-document.querySelector (".modal_dicas").addEventListener('click', function() {
-    modalDicas.classList.remove("active")
-    modalDicas.querySelector("iframe").src=""
-} )
-
 /*
 (function(){
     (document).on( 'scroll', function(){
@@ -49,4 +61,5 @@ function scrollToTop() {
     ('html, body').animate({scrollTop: offsetTop}, 600, 'linear').animate({scrollTop:25},200).animate({scrollTop:0},150) .animate({scrollTop:0},50);
 }
 */
+
 
