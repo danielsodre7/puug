@@ -3,11 +3,10 @@ let menuPrincipal = document.querySelectorAll('ul li');
 for (element of menuPrincipal){
     element.addEventListener('mouseover', (event)=>{
     
-       event.target.style.border = "2px solid #c94444";
         event.target.style.background = "url(../imagem/pata.svg)";
         event.target.style.backgroundRepeat = "repeat-y";
         event.target.style.backgroundPosition = "center center";
-        event.target.style.backgroundColor = "#c94444";
+        //event.target.style.backgroundColor = "#c94444";
         setTimeout(function() {
             event.target.style.background = "";            
         }, 400)
@@ -20,6 +19,15 @@ for (element of menuPrincipal){
     }, false);
 }
 
+
+let sombraDicas = document.querySelectorAll(".dicas");
+
+
+for(eventDica of sombraDicas) {
+    eventDica.addEventListener('mouseover', (event1)=>{
+        event1.target.style.boxShadow = "5px 2px 10px grey";
+    })
+}
 
 
 
