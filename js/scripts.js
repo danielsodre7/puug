@@ -7,7 +7,7 @@ for (element of menuPrincipal){
         event.target.style.background = "url(../imagem/pata.svg)";
         event.target.style.backgroundRepeat = "repeat-y";
         event.target.style.backgroundPosition = "center center";
-        //event.target.style.backgroundColor = "#c94444";
+        event.target.style.backgroundColor = "#c94444";
         setTimeout(function() {
             event.target.style.background = "";            
         }, 400)
