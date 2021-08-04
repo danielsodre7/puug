@@ -1,3 +1,6 @@
+
+// coloca as patas no fundo do menu
+
 let menuPrincipal = document.querySelectorAll('ul li');
 
 for (element of menuPrincipal){
@@ -14,20 +17,39 @@ for (element of menuPrincipal){
         setTimeout(function() {
             event.target.style.border = "";
         }, 800)
-
-
     }, false);
 }
 
 
+
+// colocar sombra nos post-its sem afetar o h2 e o p
+
+/*
+let semSombra = document.querySelectorAll('*p');
+
+for(eventDica of semSombra) {    
+    eventDica.addEventListener('mouseover', (event1)=>{
+       
+        event1.target.style.boxShadow = "none";
+    
+    
+    });
+}
+
 let sombraDicas = document.querySelectorAll(".dicas");
 
-
-for(eventDica of sombraDicas) {
-    eventDica.addEventListener('mouseover', (event1)=>{
-        event1.target.style.boxShadow = "5px 2px 10px grey";
-    })
+for(eventDica of sombraDicas){    
+        eventDica.addEventListener('mouseover', (event1)=>{
+           
+            event1.target.style.boxShadow = "5px 2px 10px grey";
+        
+        setTimeout(function() {
+            event1.target.style.boxShadow = ""
+        }, 900)
+    }, false);
 }
+*/
+
 
 
 

@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');/* font-family: 'Arvo', serif; Dicas */
 @import url('https://fonts.googleapis.com/css?family=Dosis & display = swap');
 
-@import "estilopug.css"; /*totos os estilos do site e midias*/
+@import "estilopug.css"; /*todos os estilos do site e midias*/
 
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -65,8 +65,8 @@ table {
 /*Alinhamento de grid e flexbox */        
 #total {
 display: grid;
-grid-template-areas: "header header " "nav nav" "article aside" "footer footer" "address address" ;
-grid-template-rows: 400px auto auto auto 30px;
+grid-template-areas: "header header " "nav nav" "article aside"  "footer footer" "address address" ;
+grid-template-rows: 400px auto auto auto auto 30px;
 grid-auto-columns: 80% 20%;
 font-family: 'Prompt', sans-serif;
 }
@@ -132,6 +132,7 @@ grid-area: article;
 grid-area: aside;
 }
 
+
 .botFooter{
 grid-area: footer;
 }
@@ -139,4 +140,4 @@ grid-area: footer;
 grid-area: address;
 }
 
-}    
+}
