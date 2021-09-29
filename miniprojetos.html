@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin-top: 160px;
+            background: rgb(39,90,182);
+            
+        }
+        #titulo{           
+            margin-top: -25%;
+            margin-left: 80px; 
+            position: absolute;
+            border:none;
+            color: rgb(44, 14, 128);
+            font-size: 20px;
+        }
+        .geral{
+            margin-top: 10px;
+            margin-left: 7%;
+            width: 400px;
+            height: 400px;
+            border:none;
+            background: rgb(255, 255, 255);
+            
+            
+        }
+
+
+        #formulario{
+            width: 200px;
+            height: 200px;
+            margin: 60px;
+        }
+
+        #final{
+            width: 300px;
+            height: 20px;  
+            margin-bottom: 0px  ;         
+        }
+
+        #t1 {
+            width: 35px;
+            height: 20px;
+            margin-left: 20px;  
+            margin-top: 50px;
+            position: absolute;          
+        }
+
+        #t2 {
+            width: 35px;
+            height: 20px;
+            margin-left: 200px;  
+            margin-top: 50px; 
+            position: absolute;
+        }
+        #t3 {
+            width: 35px;
+            height: 20px;             
+            margin-left: 200px;  
+            margin-top: 200px;
+            position: absolute; 
+        }
+        #t4 {
+            width: 35px;
+            height: 20px;
+            margin-left: 20px;  
+            margin-top: 200px;
+            position: absolute; 
+        }
+        #t5 {
+            width: 90px;
+            height: 20px;
+            
+            margin-left: 80px;  
+            margin-top: 150px;
+       }
+
+        #botao{
+            width: 90px;
+            height: 20px;
+            margin-left: 70px;  
+            margin-top: 240px;
+            position: absolute;
+            background-color: rgb(39,90,182);
+            color: white;
+            border: none;
+
+        }
+
+
+
+
+        input{
+            border: 0;
+            background-color: rgb(39,90,182);
+            color: white;
+            
+
+        }
+
+
+  
+    </style>
+</head>
+<body>
+    
+    
+    <div id="titulo">Para alterar as bordas basta preencer os campos </div>
+   
+    <div class="geral">
+
+    <form id="formulario">
+        <input id="t1" idtype="number"  type="number"/>
+        <input id="t2" idtype="number"  type="number"/>
+        <input id="t3" idtype="number"  type="number"/>
+        <input id="t4" idtype="number"  type="number"/>
+
+        <input id="t5" type="button" value="Converte" onclick="alteraBorda()"> 
+    </form>
+    <div id="final" value="" ></div>
+
+    </div>
+
+    
+
+    <button id="botao">Copiar</button>
+ 
+    <script>
+
+  
+
+    function alteraBorda() {
+    //pegar os valores  
+
+    let borda1 = document.getElementById('t1').value;
+    let borda2 = document.getElementById('t2').value;    
+    let borda3 = document.getElementById('t3').value;
+    let borda4 = document.getElementById('t4').value;
+    let bordasCopy  = `border-radius: ${borda1}px ${borda2}px ${borda3}px ${borda4}px;`;
+
+    // incluir valor radios
+    
+    const teste = bordasCopy;
+    document.getElementById("final").textContent = teste;   
+    
+    //alterar borda
+    
+    let bordas = `${borda1}px ${borda2}px ${borda3}px ${borda4}px`;
+    let caixa = document.querySelectorAll('.geral');
+    for (e of caixa) {
+        e.addEventListener('mouseover', (e)=>{
+            e.target.style.borderRadius = bordas;
+        }, false)
+    }
+    }
+
+
+    //copiar
+
+    document.getElementById('botao').addEventListener('click', function(){
+    let textarea = document.createElement('textarea');
+    let valorTexto = document.getElementById('final').innerHTML;
+    textarea.textContent = valorTexto;
+    document.body.appendChild(textarea);
+
+    var selection = document.getSelection();
+    var range = document.createRange();
+    //  range.selectNodeContents(textarea);
+    range.selectNode(textarea);
+    selection.removeAllRanges();
+    selection.addRange(range);
+
+    console.log('copy success', document.execCommand('copy'));
+    selection.removeAllRanges();
+
+    document.body.removeChild(textarea);
+    
+    })
+    </script>
+
+
+</body>
+</html>
+
